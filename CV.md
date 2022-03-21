@@ -40,3 +40,32 @@ I am a brand designer, I have experience in creating an identity for different k
     background-size: cover;
 }
 ```
+
+### Experience 
+---
+__2018-Present__
+Graphic designer
+*Freelance*
+
+__2021-Present__
+Business visualization specialist
+*Paragon Customer Communications*
+
+
+### Education
+---
+__University__: Belarusian State University
+*Social Communication, Bachelor*
+
+
+__Course__: Hands School
+*Identity*
+
+
+### Languages 
+---
+* English - B2
+* German - A1
+* Polish - A1
+* Russian - native
+* Belorussian - native

@@ -32,6 +32,41 @@ p {
     padding: 0 30px;
 }
 
+
+/* Container
+===================*/
+.intro__item {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 35px 0;
+    align-items: center;
+    border-bottom: 1px solid #023047;
+}
+
+.intro__photo {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.intro__Name {
+    margin: 0 0 0 0;
+    font-size: 30px;
+    line-height: 1.1;
+    color: #023047;
+    font-weight: 700;
+}
+
+.intro__subtitle {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
 /* Button
 ===================*/
 
@@ -46,7 +81,6 @@ p {
     font-size: 13px;
     color: white;
     font-weight: 600;
-    text-transform: uppercase;
     text-decoration: none;
     text-align: center;
 
@@ -54,9 +88,9 @@ p {
 }
 
 .btn--red {
-    background-color: #e84545;
+    background-color: #ffb703;
 }
 
 .btn--red:hover {
-    background-color: #dd3434;
+    background-color: #fb8500;
 }

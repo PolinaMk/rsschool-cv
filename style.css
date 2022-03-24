@@ -33,14 +33,14 @@ p {
 }
 
 
-/* Container
+/* Intro
 ===================*/
-.intro__item {
+.item {
     width: 100%;
     max-width: 970px;
     margin: 0 auto;
     text-align: left;
-    padding: 35px 0;
+    padding: 30px 0;
     align-items: center;
     border-bottom: 1px solid #023047;
 }
@@ -48,23 +48,23 @@ p {
 .intro__photo {
     max-width: 250px;
     height: auto;
-    margin-bottom: 30px;
-    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     border-radius: 5px;
 }
 
 .intro__Name {
     margin: 0 0 0 0;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.1;
     color: #023047;
     font-weight: 700;
 }
 
 .intro__subtitle {
-    font-size: 15px;
+    font-size: 20px;
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 /* Button
@@ -73,12 +73,12 @@ p {
 .btn {
     display: inline-block;
     vertical-align: top;
-    padding: 10px 40px;
+    padding: 10px 104px;
 
     border-radius: 2px;
 
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-size: 18px;
     color: white;
     font-weight: 600;
     text-decoration: none;
@@ -94,3 +94,21 @@ p {
 .btn--red:hover {
     background-color: #fb8500;
 }
+
+
+/* CV
+===================*/
+.Header {
+    font-size: 30px;
+    color: #023047;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 200;
+    color: #000000;
+    line-height: 1.3;
+}
+

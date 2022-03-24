@@ -1,1 +1,1 @@
-# rsschool-cv
+https://PolinaMk.github.io/rsschool-cv/

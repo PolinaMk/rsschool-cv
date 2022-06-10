@@ -130,3 +130,19 @@ p {
 .work {
     padding-bottom: 15px;
 }
+
+/* Footer
+===================*/
+.footer {
+  background-color: #ffb703;
+  padding: 20px 0;
+}
+
+.logo-object {
+  height: 50px;
+}
+
+.footer_content {
+  display: flex;
+  justify-content: center;
+}

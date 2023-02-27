@@ -9,14 +9,32 @@
     <title>CV</title>
 </head>
 <body>
+    <!-- Nav -->
+    <nav class="navigation">
+        <div class="nav-sticky">
+          <nav>
+            <ul class="nav container">
+              <li><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li><a href="#about" class="nav-link">About Ne</a></li>
+              <li><a href="#skills" class="nav-link">Skills</a></li>
+              <li><a href="#code" class="nav-link">Code Example</a></li>
+              <li><a href="#projects" class="nav-link">Projects</a></li>
+              <li><a href="#experience" class="nav-link">Experience</a></li>
+              <li><a href="#education" class="nav-link">Education</a></li>
+              <li><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+          </nav>
+        </div>
+      </nav>
+
     <!-- Intro -->
-    <div class ="intro" id="intro">
+    <div class ="header" id="header">
         <div class="container">
-            <div class="item">
+            <div class="item intro">
                 <img class="intro__photo" src="intro_photo.jpg" alt="">
                 <div class="intro__content">
                 <h1 class="intro__Name">
-                    Polina Makarenko
+                    Palina Makaranka
                 </h1>
                 <h2 class="intro__subtitle">
                     RSschool student
@@ -27,30 +45,37 @@
         </div>
    </div>
 
+   <!-- Main -->
+   <div class="main">
+
     <!-- contacts -->
    <div class ="contacts__item" id="contacts">
         <div class="container">
             <div class="item">
-                <h1 class="Header">
+                <h2 class="Header">
                     Contacts
-                </h1>
+                </h2>
                 <div class="text">
-                    <p><span>Location:</span> Warsaw, Poland</p>
-                    <p><span>Phone:</span> +48 792 028 748</p>
-                    <p><span>Email:</span> polinamakarenko.com@gmail.com</p>
-                    <p><span>GitHub:</span> PolinaMk</p>
+
+                    <ul>
+                        <li>Phone: <a class="contact">+48 792 028 748</a></li>
+                        <li>E-mail: <a class="contact" href="mailto:polinamakarenko.com@gmail.com">polinamakarenko.com@gmail.com</a></li>
+                        <li>GitHub: <a class="contact" href="https://github.com/PolinaMk">PolinaMk</a></li>
+                        <li>Location: Warsaw, Poland</li>
+                    </ul>
+
                 </div>
             </div>
         </div>
     </div>
     
     <!-- About Me -->
-   <div class ="About_Me__item" id="About_Me">
+   <div class ="About_Me__item" id="about">
         <div class="container">
             <div class="item">
-                <h1 class="Header">
+                <h2 class="Header">
                     About Me
-                </h1>
+                </h2>
                 <div class="text">
                     <p>I am a brand designer, I have experience in creating an identity for different kinds of companies. I have experience in writing HTML and CSS, I want to become a front-end developer.</p>
                 </div>
@@ -62,28 +87,31 @@
    <div class ="skills__item" id="skills">
         <div class="container">
             <div class="item">
-                <h1 class="Header">
+                <h2 class="Header">
                     Skills
-                </h1>
+                </h2>
                 <div class="text">
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>Figma</p>
-                    <p>UI</p>
-                    <p>Adobe Ps/Ai/In</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>Figma</li>
+                        <li>UI</li>
+                        <li>Adobe Ps/Ai/In</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Code Example -->
-    <div class ="Code_Example__item" id="Code_Example">
+    <div class ="Code_Example__item" id="code">
         <div class="container">
             <div class="item">
-                <h1 class="Header">
+                <h2 class="Header">
                     Code Example
-                </h1>
-                <div class="text">
+                </h2>
+                <div class="text code">
                     <p>css</p>
                         <p><code>
                             .intro {<Br>
@@ -101,13 +129,30 @@
         </div>
     </div>
 
-    <!-- Experience -->
-   <div class ="Experience__item" id="Experience">
+    <!-- Projects -->
+   <div class ="Projects__item" id="projects">
     <div class="container">
         <div class="item">
-            <h1 class="Header">
+            <h2 class="Header">
+                Projects
+            </h2>
+            <div class="text">
+                <ul>
+                    <li><a class="text" href="https://github.com/PolinaMk/rsschool-cv">RSschool-CV</a></li>
+                    <li><a class="text" href="https://github.com/PolinaMk/human-readable-number">Human readable number</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Experience -->
+   <div class ="Experience__item" id="experience">
+    <div class="container">
+        <div class="item">
+            <h2 class="Header">
                 Experience
-            </h1>
+            </h2>
             <div class="text">
                 <div class="work"><p><span>2018-Present:</span> Graphic designer</p>
                      <p>Freelance</p></div>
@@ -120,12 +165,12 @@
     </div>
 
     <!-- Education -->
-   <div class ="Education__item" id="Education">
+   <div class ="Education__item" id="education">
     <div class="container">
         <div class="item">
-            <h1 class="Header">
+            <h2 class="Header">
                 Education
-            </h1>
+            </h2>
             <div class="text">
                 <div class="work"><p><span>University:</span> Belarusian State University</p>
                      <p>Social Communication, Bachelor</p></div>
@@ -138,29 +183,35 @@
     </div>
 
     <!-- Languages -->
-   <div class ="Languages__item" id="Languages">
+   <div class ="Languages__item" id="languages">
     <div class="container">
         <div class="item_end">
-            <h1 class="Header">
+            <h2 class="Header">
                 Languages
-            </h1>
+            </h2>
             <div class="text">
-                <p><span>English</span> - B2</p>
-                <p><span>German</span> - A1</p>
-                <p><span>Polish</span> - A1</p>
-                <p><span>Russian</span> - native</p>
-                <p><span>Belarusian</span> - native</p>
+                <ul>
+                    <li><span class="contact">English</span> - B2</li>
+                    <li><span class="contact">German</span> - A1</li>
+                    <li><span class="contact">Polish</span> - A1</li>
+                    <li><span class="contact">Russian</span> - native</li>
+                    <li><span class="contact">Belarusian</span> - native</li>
+                </ul>
             </div>
         </div>
     </div>
     </div>
+
+</div>
      
+<!-- Footer -->
     <footer class="footer">
         <div class="container">
-        <div class="footer_content"><a href="https://rs.school/js/"><object type="image/svg+xml" data="./rs_school_js.svg" class="logo-object">
-            Your browser does not support SVG
-        </object>
-        </a>
+        <div class="footer_content">
+            <div>
+                © 2023 by <a href="https://github.com/PolinaMk" target="blanck">Palina Makaranka</a>
+            </div>      
+            <a href="https://rs.school/js/" class="logo-object"></a>
         </div>
         </div>
     </footer>

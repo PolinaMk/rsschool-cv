@@ -28,7 +28,7 @@ ul {
     margin: 0;
     padding: 0;
 }
-  
+
 a {
     text-decoration: none;
 }
@@ -224,7 +224,7 @@ a {
     .navigation {
         display: none;
     }
-    
+
     .intro {
         flex-wrap: wrap;
     }

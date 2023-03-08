@@ -41,7 +41,7 @@ I am a brand designer, I have experience in creating an identity for different k
 }
 ```
 
-### Experience 
+### Experience
 ---
 __2018-Present__
 Graphic designer
@@ -62,7 +62,7 @@ __Course__: Hands School
 *Identity*
 
 
-### Languages 
+### Languages
 ---
 * English - B2
 * German - A1

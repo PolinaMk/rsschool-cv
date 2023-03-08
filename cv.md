@@ -12,7 +12,7 @@
 
 ### About Me
 ---
-I am a brand designer, I have experience in creating an identity for different kinds of companies. I have experience in writing HTML and CSS, I want to become a front-end developer. 
+I am a brand designer, I have experience in creating an identity for different kinds of companies. I have experience in writing HTML and CSS, I want to become a front-end developer.
 
 
 ### Skills
@@ -41,7 +41,7 @@ I am a brand designer, I have experience in creating an identity for different k
 }
 ```
 
-### Experience 
+### Experience
 ---
 __2018-Present__
 Graphic designer
@@ -62,7 +62,7 @@ __Course__: Hands School
 *Identity*
 
 
-### Languages 
+### Languages
 ---
 * English - B2
 * German - A1
